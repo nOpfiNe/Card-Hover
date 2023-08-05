@@ -1,0 +1,83 @@
+body{
+    background-color: #514f5d;
+    margin: 0;
+}
+
+#title{
+    text-align: center;
+    font-size: clamp(2.3em, 3em, 4.5em);
+    margin-bottom: 10vh;
+    color: white;
+}
+
+.container-big{
+    display: flex;
+    flex-flow: row wrap;
+    gap: 5vh;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.border{
+    height: 59vh;
+    width: 21vw;
+    background: transparent;
+    border-radius: 5vh;
+    transition: border 1s;
+}
+
+.border:hover{
+    border: 1px solid #646675;
+}
+
+.card{
+    height: 62vh;
+    width: 22vw;
+    min-width: 22vw;
+    min-height: 62vh;
+    background: #808080;
+    border-radius: 5vh;
+    transition: background 0.8s;
+    overflow: hidden;
+    background-color: #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h2{
+    color: #fff;
+    margin-left: 2vh;
+}
+
+.card01{
+    background: url("./img/jog1i.png") center center no-repeat;
+    background-size: 700px;
+    transition: all .8s;
+}
+
+.card01:hover{
+    background: url("./img/jog1f.png") center no-repeat;
+    background-size: 500px;
+}
+
+.card02{
+    background: url("./img/jog2i.png") center center no-repeat;
+    background-size: 600px;
+    transition: all .8s;
+}
+
+.card02:hover{
+    background: url("./img/jog2f.png") center no-repeat;
+    background-size: 600px;
+}
+
+.card03{
+    background: url("./img/jog3i.png") center center no-repeat;
+    background-size: 600px;
+    transition: all .8s;
+}
+
+.card03:hover{
+    background: url("./img/jog3f.png") center no-repeat;
+}
